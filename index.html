@@ -16,26 +16,55 @@
 </head>
 <body>
     <!-- Navigation (logo/name and anchor links) -->
-    <nav>
-        <a href="#hero"><div class="logo">Algo</div></a>
-        <ul class="nav-links">
-            <li><a href="#services">Servizi</a></li>
-            <li><a href="#about">Chi Siamo</a></li>
-            <li><a href="#faqs">FAQs</a></li>
-            <li><a href="#contact">Contatti</a></li>
-          <div class="language-switcher">
-            <div class="dropdown">
-              <button class="dropbtn">
-                <img src="https://flagcdn.com/w20/it.png" alt="Italian"> IT
-              </button>
-              <div class="dropdown-content">
-                <a href="https://algogenex.com">
-                  <img src="https://flagcdn.com/w20/gb.png" alt="English"> EN
-                </a>
-              </div>
-            </div>
+    <nav class="navbar">
+      <a href="#hero" class="logo">Algo</a>
+    
+      <!-- Desktop links -->
+      <ul class="nav-links">
+        <li><a href="#services">Servizi</a></li>
+        <li><a href="#about">Chi Siamo</a></li>
+        <li><a href="#faqs">FAQs</a></li>
+        <li><a href="#contact">Contatti</a></li>
+        <li class="dropdown">
+          <button class="dropbtn">
+            <img src="https://flagcdn.com/w20/it.png" alt="IT" class="flag"> IT ▼
+          </button>
+          <div class="dropdown-content">
+            <a href="https://www.algogenex.com/">
+              <img src="https://flagcdn.com/w20/gb.png" alt="EN" class="flag"> EN
+            </a>
+            <a href="https://www.algogenex.it">
+              <img src="https://flagcdn.com/w20/it.png" alt="IT" class="flag"> IT
+            </a>
           </div>
-        </ul>
+        </li>
+      </ul>
+    
+      <!-- Hamburger -->
+      <div class="hamburger" id="hamburger">
+        ☰
+      </div>
+    
+      <!-- Mobile menu -->
+      <div class="mobile-menu" id="mobile-menu">
+        <a href="#services">Servizi</a>
+        <a href="#about">Chi Siamo</a>
+        <a href="#faqs">FAQs</a>
+        <a href="#contact">Contatti</a>
+        <div class="dropdown mobile-dropdown">
+          <button class="dropbtn">
+            <img src="https://flagcdn.com/w20/it.png" alt="IT" class="flag"> IT ▼
+          </button>
+          <div class="dropdown-content">
+            <a href="https://www.algogenex.com/">
+              <img src="https://flagcdn.com/w20/gb.png" alt="EN" class="flag"> EN
+            </a>
+            <a href="https://www.algogenex.it">
+              <img src="https://flagcdn.com/w20/it.png" alt="IT" class="flag"> IT
+            </a>
+          </div>
+        </div>
+      </div>
     </nav>
 
     <!-- Hero Section -->
