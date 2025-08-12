@@ -232,14 +232,14 @@
         })
           .then((res) => {
             if (res.ok) {
-              document.getElementById("form-status").textContent = "Message sent successfully!";
+              document.getElementById("form-status").textContent = "Messaggio inviato con successo!";
               form.reset();
             } else {
-              document.getElementById("form-status").textContent = "There was an error sending your message.";
+              document.getElementById("form-status").textContent = "C'è stato un errore con l'invio del tuo messaggio";
             }
           })
           .catch(() => {
-            document.getElementById("form-status").textContent = "Network error. Try again.";
+            document.getElementById("form-status").textContent = "Errore di connessione. Prova ancora.";
           });
       });
     </script>
